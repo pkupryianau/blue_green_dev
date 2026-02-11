@@ -7,9 +7,9 @@ metadata:
 spec:
   selector:
     app: demo-app
-    version: blue
+    version: green
   ports:
     - port: 80
-      targetPort: 80
+      targetPort: 81
       protocol: TCP
   type: LoadBalancer
