@@ -10,6 +10,6 @@ spec:
     version: blue
   ports:
     - port: 80
-      targetPort: 8088
+      targetPort: 80
       protocol: TCP
   type: LoadBalancer
